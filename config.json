@@ -1,20 +1,25 @@
 {
-	"title" : "Simple Dash",
-	"items" : [
-		{
-			"alt" : "Github",
-			"icon" : "fab fa-github",
-			"link" : "https://github.com/kutyla-philipp"
-		},
-		{
-			"alt" : "Twitter",
-			"icon" : "fab fa-twitter",
-			"link" : "https://twitter.com/Kukielka_"
-		},
-		{
-			"alt" : "Docker Hub",
-			"icon" : "fab fa-docker",
-			"link" : "https://hub.docker.com/u/kukielka/"
-		}
+	"title":"My Personal Dashboard",
+	"items":[
+        {
+        	"alt":"GitHub",
+        	"icon":"fab fa-github",
+        	"link":"https://github.com/danielbene"
+        },
+        {
+        	"alt":"DockerHub",
+        	"icon":"fab fa-docker",
+        	"link":"https://hub.docker.com/u/dbene"
+        },
+        {
+                "alt":"Ubuntu",
+                "icon":"fab fa-ubuntu",
+                "link":"https://ubuntu.com/"
+        },
+        {
+                "alt":"CorgiOrgy",
+                "icon":"fas fa-paw",
+                "link":"https://corgiorgy.com/"
+        }
 	]
 }
