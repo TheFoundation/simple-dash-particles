@@ -43,8 +43,8 @@ body {
 }
 
 #itemlist {
-	border-radius: 6px;
-	background-color: rgba(0, 0, 0, .4);
+	border-radius: 13px;
+	background-color: rgba(222,111, 2, .5);
 	font-size: 4em;
 	z-index: 1;
 }
