@@ -21,7 +21,9 @@ body {
 
 #wrapper {
 	height: 100%;
-	display: grid;10px
+	display: grid;
+      	margin: auto;
+
 }
 
 #itemlist {
