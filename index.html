@@ -35,9 +35,9 @@
 						var item = config.items[i];
 						var icon = ""
 						if(item.icon.match(/^http/)) { // image http link supplied
-						itemlistHTML += '<div class="itemcontainer rounded" > <a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><image class="fa-fw rounded" src="'+item.icon+'" ></img></a></div>';	
+						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><div class="itemcontainer rounded" ><image class="fa-fw rounded" src="'+item.icon+'" ></img></div></a>';	
 						} else {
-						itemlistHTML += '<div class="itemcontainer rounded" ><a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><i     class="'+item.icon+' fa-fw rounded"></i></a></div>';
+						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><div class="itemcontainer rounded" ><i     class="'+item.icon+' fa-fw rounded"></i></div></a>';
 						}
 						if((1+i)%5==0) { itemlistHTML += '<br>'; }
 					}
