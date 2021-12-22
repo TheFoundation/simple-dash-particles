@@ -56,11 +56,10 @@ body {
 
 /* link container colors */
 #itemcontainer div {
-color: #0 0 0;
+/*color: black;*/
 background-color: rgba(0, 0, 0, .8);
 }
 #itemcontainer div:hover {
-color: #c4c4c4;
 background-color: rgba(66, 111, 0, .6);
 
 }
