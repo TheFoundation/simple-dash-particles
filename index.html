@@ -41,9 +41,9 @@
 						var item = config.items[i];
 						var icon = ""
 						if(item.icon.match(/^http/)) { // image http link supplied
-						itemlistHTML += '<a class="rounded" href="'+item.link+'" title="'+item.alt+'"><image class="fa-fw rounded" src="'+item.icon+'" ></img></a>';	
+						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><image class="fa-fw rounded" src="'+item.icon+'" ></img></a>';	
 						} else {
-						itemlistHTML += '<a class="rounded" href="'+item.link+'" title="'+item.alt+'"><i     class="'+item.icon+' fa-fw rounded"></i></a>';
+						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><i     class="'+item.icon+' fa-fw rounded"></i></a>';
 						}
 						if((1+i)%5==0) { itemlistHTML += '<br>'; }
 					}
