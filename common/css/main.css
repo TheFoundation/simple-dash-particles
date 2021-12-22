@@ -70,10 +70,17 @@ background-color: rgba(66, 111, 0, .6);
 	font-size: 4em;
 	z-index: 1;
 }
+
+/* link container colors */
 #itemlist>* {
-	padding: 15px;
-	/* margin: 0 auto; */
+padding: 12px;
+background-color: rgba(0, 0, 0, .8);
 }
+#itemlist>*:hover {
+padding: 16px;
+background-color: rgba(66, 111, 0, .6);
+}
+
 
 /* particle canvas style */
 #particles-js {
