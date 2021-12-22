@@ -7,6 +7,11 @@
         	"link":"https://github.com/TheFoundation/simple-dash-particles"
         },
         {
+                "alt":"GitHub",
+                "icon":"https://github.com/favicon.ico",
+                "link":"https://corgiorgy.com/"
+        },
+        {
         	"alt":"DockerHub",
         	"icon":"fab fa-docker",
         	"link":"https://hub.docker.com/u/thefoundation"
@@ -22,9 +27,14 @@
                 "link":"https://gitlab.com/favicon.ico"
         },
         {
-                "alt":"GitHub with image",
-                "icon":"https://github.com/favicon.ico",
+                "alt":"Cuteness Overkill ( Dogs )",
+                "icon":"https://corgiorgy.com/swimcorgis.gif",
                 "link":"https://corgiorgy.com/"
+        },
+        {
+                "alt":"Cuteness Overkill ( Kittenwar.com )",
+                "icon":"https://www.kittenwar.com/c_images/2006/08/10/84180.1.jpg",
+                "link":"https://www.kittenwar.com/"
         }
 		
 	]
