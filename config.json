@@ -1,5 +1,5 @@
 {
-	"title":"My Personal Dashboard",
+	"title":"Universal Dashboard",
 	"items":[
         {
         	"alt":"GitHub",
@@ -19,7 +19,7 @@
         {
                 "alt":"GitLab",
                 "icon":"fas fa-gitlab",
-                "link":"https://gitlab.com"
+                "link":"https://gitlab.com/favicon.ico"
         },
         {
                 "alt":"GitHub with image",
