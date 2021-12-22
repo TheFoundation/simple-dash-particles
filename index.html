@@ -13,6 +13,12 @@
             /* This set radius to all 4 corners */  
             border-radius: 10px; 
         }
+        .itemcontainer {
+            /* This set radius to all 4 corners */  
+	    border-radius: 13px;
+	    background-color: rgba(0, 0, 0, .8);
+        }
+
     </style>
 	<body id="homepage">
 
@@ -41,9 +47,9 @@
 						var item = config.items[i];
 						var icon = ""
 						if(item.icon.match(/^http/)) { // image http link supplied
-						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><image class="fa-fw rounded" src="'+item.icon+'" ></img></a>';	
+						itemlistHTML += '<div class="itemcontainer rounded" > <a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><image class="fa-fw rounded" src="'+item.icon+'" ></img></a></div>';	
 						} else {
-						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><i     class="'+item.icon+' fa-fw rounded"></i></a>';
+						itemlistHTML += '<div class="itemcontainer rounded" ><a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><i     class="'+item.icon+' fa-fw rounded"></i></a></div>';
 						}
 						if((1+i)%5==0) { itemlistHTML += '<br>'; }
 					}
