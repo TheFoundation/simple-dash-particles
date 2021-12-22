@@ -1,4 +1,4 @@
-html, body {
+margin: 6px;html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -88,8 +88,8 @@ background-color: rgba(66, 111, 0, .6);
 
 /* link colors */
 #itemlist a {
-	color: #fff;
+	color: black;
 }
 #itemlist a:hover {
-	color: #c4c4c4;
+	color: red;
 }
