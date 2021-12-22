@@ -7,11 +7,6 @@
         	"link":"https://github.com/TheFoundation/simple-dash-particles"
         },
         {
-                "alt":"GitHub",
-                "icon":"https://github.com/favicon.ico",
-                "link":"https://corgiorgy.com/"
-        },
-        {
         	"alt":"DockerHub",
         	"icon":"fab fa-docker",
         	"link":"https://hub.docker.com/u/thefoundation"
@@ -25,6 +20,11 @@
                 "alt":"GitLab",
                 "icon":"fab fa-gitlab",
                 "link":"https://gitlab.com"
+        },
+        {
+                "alt":"This Dashboard",
+                "icon":"fas fa-columns",
+                "link":"https://thefoundation.github.io/simple-dash-particles/"
         },
         {
                 "alt":"Cuteness Overkill ( Dogs )",
