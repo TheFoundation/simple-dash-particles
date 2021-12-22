@@ -69,6 +69,7 @@ background-color: rgba(66, 111, 0, .6);
 	background-color: rgba(4, 1, 0, .4);
 	font-size: 4em;
 	z-index: 1;
+	margin: auto;
 }
 
 /* link container colors */
@@ -98,4 +99,10 @@ background-color: rgba(66, 111, 0, .6);
 }
 #itemlist a:hover {
 	color: red;
+}
+#itemlist div {
+	padding: 10px;
+}
+#itemlist div:hover {
+	padding: 10px;
 }
