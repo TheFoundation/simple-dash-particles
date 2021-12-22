@@ -34,7 +34,12 @@
 					var itemlistHTML = '';
 					for (var i = 0; i < config.items.length; i++) {
 						var item = config.items[i];
+						var icon = ""
+						if(item.icon.match(/^http/)) { // image http link supplied
+						itemlistHTML += '<a href="'+item.link+'" title="'+item.alt+'"><image src="'+item.icon+'" class="fa-fw"></img></a>';	
+						} else {
 						itemlistHTML += '<a href="'+item.link+'" title="'+item.alt+'"><i class="'+item.icon+' fa-fw"></i></a>';
+						}
 					}
 					document.getElementById("itemlist").innerHTML = itemlistHTML;
 				} else {
