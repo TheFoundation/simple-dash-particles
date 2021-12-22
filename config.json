@@ -4,12 +4,12 @@
         {
         	"alt":"GitHub",
         	"icon":"fab fa-github",
-        	"link":"https://github.com/danielbene"
+        	"link":"https://github.com/TheFoundation/simple-dash-particles"
         },
         {
         	"alt":"DockerHub",
         	"icon":"fab fa-docker",
-        	"link":"https://hub.docker.com/u/dbene"
+        	"link":"https://hub.docker.com/u/thefoundation"
         },
         {
                 "alt":"Ubuntu",
@@ -17,9 +17,15 @@
                 "link":"https://ubuntu.com/"
         },
         {
-                "alt":"CorgiOrgy",
-                "icon":"fas fa-paw",
+                "alt":"GitLab",
+                "icon":"fas fa-gitlab",
+                "link":"https://gitlab.com"
+        },
+        {
+                "alt":"GitHub with image",
+                "icon":"https://github.com/favicon.ico",
                 "link":"https://corgiorgy.com/"
         }
+		
 	]
 }
