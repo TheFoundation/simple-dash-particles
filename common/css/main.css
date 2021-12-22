@@ -21,13 +21,14 @@ body {
 
 #wrapper {
 	height: 100%;
-	display: grid;
+	display: grid;10px
 }
 
 #itemlist {
 	display: inline-grid;
 	grid-template-columns: repeat(2, 1fr);
 	margin: auto;
+	padding: 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -42,6 +43,28 @@ body {
 	}
 }
 
+.rounded {
+     /* This set radius to all 4 corners */  
+     border-radius: 10px; 
+ }
+.itemcontainer {
+     /* This set radius to all 4 corners */  
+	    border-radius: 13px;
+	    background-color: rgba(0, 0, 0, .8);
+	    margin: 6px;
+}
+
+/* link container colors */
+#itemcontainer div {
+color: #0 0 0;
+background-color: rgba(0, 0, 0, .8);
+}
+#itemcontainer div:hover {
+color: #c4c4c4;
+background-color: rgba(66, 111, 0, .6);
+
+}
+
 #itemlist {
 	border-radius: 13px;
 	background-color: rgba(4, 1, 0, .4);
@@ -50,7 +73,7 @@ body {
 }
 #itemlist>* {
 	padding: 15px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 /* particle canvas style */
