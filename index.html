@@ -13,7 +13,7 @@
 
 		<div id="wrapper">
 			<div id="itemlist">
-				<a title="Loading..."><i class="fa-spin fas fa-spinner fa-fw"></i></a>
+				<center><a title="Loading..."><i class="fa-spin fas fa-spinner fa-fw"></i></a></center>
 			</div>
 		</div>
 
@@ -40,6 +40,7 @@
 						} else {
 						itemlistHTML += '<a href="'+item.link+'" title="'+item.alt+'"><i class="'+item.icon+' fa-fw"></i></a>';
 						}
+						if(i%4==0) { itemlistHTML += '<br>'; }
 					}
 					document.getElementById("itemlist").innerHTML = itemlistHTML;
 				} else {
