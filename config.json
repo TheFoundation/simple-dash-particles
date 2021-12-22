@@ -1,9 +1,9 @@
 {
 	"title":"Universal Dashboard",
-	"items":[
+	"items":[https://hcxi2.2ix.ch/github.com/TheFoundation/Hocker/README.md/logo.jpg
         {
-        	"alt":"GitHub",
-        	"icon":"fab fa-github",
+        	"alt":"GitHub Project",
+        	"icon":"https://hcxi2.2ix.ch/thefoundation.github.io/simple-dash-particles/index.html/logo.jpg",
         	"link":"https://github.com/TheFoundation/simple-dash-particles"
         },
         {
@@ -20,6 +20,11 @@
                 "alt":"GitLab",
                 "icon":"fab fa-gitlab",
                 "link":"https://gitlab.com"
+        },
+        {
+        	"alt":"GitHub",
+        	"icon":"fab fa-github",
+        	"link":"https://github.com/"
         },
         {
                 "alt":"This Dashboard",
