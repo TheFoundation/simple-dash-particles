@@ -39,7 +39,8 @@
 						} else {
 						itemlistHTML += '<a class="rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><div class="itemcontainer rounded" ><i     class="'+item.icon+' fa-fw rounded"></i></div></a>';
 						}
-						if((1+i)%5==0) { itemlistHTML += '<br>'; }
+                                                //forced newlines without css
+						//if((1+i)%5==0) { itemlistHTML += '<br>'; }
 					}
 					document.getElementById("itemlist").innerHTML = itemlistHTML;
 				} else {
