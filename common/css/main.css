@@ -66,11 +66,11 @@ background-color: rgba(66, 111, 0, .6);
 
 }
 
-#itemcontainer a {
+#itemlink a {
 /*color: black;*/
 background-color: rgba(0, 0, 0, .8);
 }
-#itemcontainer a:hover {
+#itemlink a:hover {
 background-color: rgba(66, 111, 0, .6);
 
 }
