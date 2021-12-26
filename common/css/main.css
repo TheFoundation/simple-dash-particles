@@ -27,6 +27,11 @@ body {
 }
 
 #itemlist {
+	border-radius: 13px;
+	background-color: rgba(4, 1, 0, .66);
+	font-size: 4em;
+	z-index: 1;
+	margin: auto;
 	display: inline-grid;
 	grid-template-columns: repeat(2, 1fr);
 	margin: auto;
@@ -75,13 +80,6 @@ background-color: rgba(66, 111, 0, .6);
 
 }
 
-#itemlist {
-	border-radius: 13px;
-	background-color: rgba(4, 1, 0, .66);
-	font-size: 4em;
-	z-index: 1;
-	margin: auto;
-}
 
 /* link container colors */
 
