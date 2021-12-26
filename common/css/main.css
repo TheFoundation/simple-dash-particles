@@ -84,16 +84,16 @@ background-color: rgba(66, 111, 0, .6);
 }
 
 /* link container colors */
-/*
+
 #itemlist>* {
 padding: 12px;
-background-color: rgba(0, 0, 0, .8);
+/*background-color: rgba(0, 0, 0, .8);*/
 }
 #itemlist>*:hover {
 padding: 16px;
-background-color: rgba(66, 111, 0, .6);
+/*background-color: rgba(66, 111, 0, .6);*/
 }
-*/
+
 
 /* particle canvas style */
 #particles-js {
@@ -108,9 +108,11 @@ background-color: rgba(66, 111, 0, .6);
 /* link colors */
 #itemlist a {
 	color: white;
+	background: rgba(255,255,255,.3);
 }
 #itemlist a:hover {
 	color: red;
+	background: rgba(0,0,0,.3);
 }
 #itemlist div {
 	padding: 10px;
