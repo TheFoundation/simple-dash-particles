@@ -71,9 +71,13 @@ background-color: rgba(66, 111, 0, .6);
 
 }
 
+.itemlink {
+    margin: 9px;
+}
+
 #itemlink a {
 /*color: black;*/
-margin: 10px;
+margin: 9px;
 background-color: rgba(0, 0, 0, .8);
 }
 #itemlink a:hover {
@@ -103,6 +107,7 @@ padding: 16px;
 	left: 0;
 	z-index: 0;
 }
+
 
 /* link colors */
 #itemlist a {
