@@ -73,11 +73,12 @@ background-color: rgba(66, 111, 0, .6);
 
 #itemlink a {
 /*color: black;*/
+margin: 10px;
 background-color: rgba(0, 0, 0, .8);
 }
 #itemlink a:hover {
 background-color: rgba(66, 111, 0, .6);
-
+margin: 12px;
 }
 
 
