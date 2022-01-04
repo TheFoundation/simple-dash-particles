@@ -34,7 +34,7 @@
 					for (var i = 0; i < config.items.length; i++) {
 						var item = config.items[i];
 						var icon = ""
-						if(item.icon.match(/^http/)) { // image http link supplied
+						if(item.icon.match(/^http/) || item.icon.match(/^data:image/)) { // image http link supplied
 						itemlistHTML += '<a class="itemlink rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><div class="itemcontainer rounded" ><image class="fa-fw rounded" src="'+item.icon+'" ></img></div></a>';	
 						} else {
 						itemlistHTML += '<a class="itemlink rounded" href="'+item.link+'" target="_blank" title="'+item.alt+'"><div class="itemcontainer rounded" ><i     class="'+item.icon+' fa-fw rounded"></i></div></a>';
