@@ -1,10 +1,10 @@
 {
   "particles": {
     "number": {
-      "value": 200,
+      "value": 108,
       "density": {
-        "enable": false,
-        "value_area": 800
+        "enable": true,
+        "value_area": 819.8939057285982
       }
     },
     "color": {
@@ -17,7 +17,7 @@
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 4
       },
       "image": {
         "src": "img/github.svg",
@@ -26,8 +26,8 @@
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 0.10658620774471775,
+      "random": true,
       "anim": {
         "enable": false,
         "speed": 1,
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 3,
+      "value": 4.09946952864299,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,23 +47,23 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 131.18302491657568,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 0.3607533185205831,
+      "width": 1.1478514680200373
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 3.279575622914392,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "bounce",
       "bounce": false,
       "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "enable": true,
+        "rotateX": 1229.8408585928971,
+        "rotateY": 1803.7665926029156
       }
     }
   },
@@ -71,11 +71,11 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
-        "mode": "grab"
+        "enable": true,
+        "mode": "repulse"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
@@ -95,7 +95,7 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 100,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
@@ -106,5 +106,5 @@
       }
     }
   },
-  "retina_detect": false
+  "retina_detect": true
 }
